@@ -1,6 +1,6 @@
 package mohammadAamir;
 
-public class newpairs {
+public class newww {
 	public static void main(String[] args) {
 		int []nums = {1,2,3,1,1,2};
 		

@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class goodPairsOptimize {
 
 	public static void main(String[] args) {
-		int []nums = {1,2,3,1,1,3};
+		int []nums = {1,2,3,1,1,2};
 		 int count=0;
          HashMap<Integer,Integer>map=new HashMap<>();
         for(int num:nums){

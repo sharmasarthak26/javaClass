@@ -30,21 +30,21 @@ public class Leetcode_50_Pow {
 		if(kj<0) {
 			kj=-1*kj;
 		}
-        while(kj>0) {
-        	if(kj%2==1) {
+                while(kj>0) {
+		     if(kj%2==1) {
         		result=result*x;
         		kj--;
-        	}
-        	else {
+		      }
+        	     else {
         		x=x*x;
         		kj=kj/2;
-        	}
-        }
-        if(n<0) {
-        	result=(double)(1.0)/(double)(result);
-        }
-        System.out.println(result);
-	}
+		     }
+		}
+		if(n<0) {
+	            result=(double)(1.0)/(double)(result);
+		}
+                System.out.println(result);
+	    }
 
 
 }

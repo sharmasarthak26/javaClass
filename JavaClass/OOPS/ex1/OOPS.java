@@ -1,15 +1,25 @@
 package OOPS.ex1;
 
+class Men{
+   String name;
+   
+
+
+}
+
 public class OOPS {
     public static void main(String args[]) {
-        Student s1 = new Student();
-        s1.name = "Aman";
-        s1.age = 24;
+
+        // Cars obj1 = new Cars();
+
+        Men obj = new Men();
+
+
+        Student s1 = new Student("Anirudh", 23);
+        
         s1.getInfo();
   
-        Student s2 = new Student();
-        s2.name = "Shradha";
-        s2.age = 22;
+        Student s2 = new Student("Abhinav", 20);
         s2.getInfo();
     }
 }
@@ -17,6 +27,15 @@ public class OOPS {
 class Student {
     String name;
     int age;
+
+    Student(String name, int age){
+        this.name=name;
+        this.age=age;
+    }
+
+    Student(Cars obj){
+
+    }
    
     public void getInfo() {
         System.out.println("The name of this Student is " + this.name);

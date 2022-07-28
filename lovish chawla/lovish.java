@@ -1,3 +1,3 @@
-public class lovish {
-
+class Solution {
+    public int singleNumber
 }

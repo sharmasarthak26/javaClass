@@ -7,7 +7,7 @@ class dataType {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
+        System.out.println("Enter a number:");
 
         // int n = sc.nextInt();
 
@@ -23,7 +23,7 @@ class dataType {
         // String name1 = "Hello there";
 
 
-
+//Anmol Chaudhary
         // System.out.println(name);
 
         int age = 20;
